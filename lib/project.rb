@@ -10,6 +10,8 @@ class Project
   
   def add_backer(backer)
     @backers << backer
+    #also add the project instance to the Backer class' array of projects
+    
   end
   
 end
