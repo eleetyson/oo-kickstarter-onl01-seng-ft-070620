@@ -11,7 +11,7 @@ class Backer
   def back_project(project)
     @backed_projects << project
     # add project instance to the Project class' 
-    project.add_backer()
+    project.add_backer(self)
   end
 
 end
