@@ -1,9 +1,10 @@
 require 'pry'
 class Project
   # attr_accessor
-  attr_reader
+  attr_reader :title
   
-  def initialize
+  def initialize(title)
+    @title = title
     
   end
   
